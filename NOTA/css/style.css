@@ -25,12 +25,7 @@ body{
 
 	margin:100vh 0;
 }
-/*.nav-bar{
-	width: 100vw;
-	height: 8vh;
 
-	background: #2980b9;
-}*/
 .nav-bar{
 	width: 100vw;
 	height: 52px;
@@ -71,10 +66,7 @@ body{
 		height: 9vh;
 		padding:.5vh 0;
 	}
-	/*.content-pre-view{
-		max-width: 56vw;
-		max-height: 9vh;
-	}*/
+
 	.title-pre-view{
 		margin-top: 1vh;
 	}
@@ -95,11 +87,7 @@ body{
 
 
 
-/*#hamburger{
-	background: url("../img/hamburger.svg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}*/
+
 
 
 #read{
@@ -155,15 +143,6 @@ body{
 
 
 
-/*.nav-item{
-	width: 5vh;
-	height:5vh;
-	margin:1vh 2vw;
-
-	border:none;
-
-	outline: none;
-}*/
 
 .nav-item{
 
