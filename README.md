@@ -10,7 +10,7 @@ Esta app web esta construida en HTML5, CSS3 y JS. En caso de abrirla en navegado
 
 NOTA cuenta con 3 secciones:
 
-> Principal: Aqui podras ver una seria de "bloques" en lista. Estos bloques tendran el titulo de la nota, una pequeña preview del contenido y la fecha de creación de 	            la misma.
+> Principal: Aqui podras ver una serie de "bloques" en lista. Estos bloques tendran el titulo de la nota, una pequeña preview del contenido y la fecha de creación de 	            la misma.
 
 > Read: En esta pestaña podras leer el contenido completo de la nota, ademas desde aqui podras acceder a la pestaña de edición.
 
