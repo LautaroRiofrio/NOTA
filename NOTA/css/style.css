@@ -1,0 +1,326 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow: hidden;
+}
+
+.container{
+
+	will-change: margin;
+
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: scroll;
+
+	background: #D8D8D8;
+
+	transition-duration: .5s;
+}
+
+#read{
+	position: absolute;
+
+	margin:100vh 0;
+}
+/*.nav-bar{
+	width: 100vw;
+	height: 8vh;
+
+	background: #2980b9;
+}*/
+.nav-bar{
+	width: 100vw;
+	height: 52px;
+
+	background: #2980b9;
+}
+
+
+
+
+/*------------------*/
+.nota{
+	display: flex;
+	width: 95vw;
+	height: 10vh;
+	margin:1vh 2.5vw;
+	overflow-y: hidden;
+
+	background: #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	font-size: small;
+
+
+
+}
+	.info-pre-view{
+		width: 38vw;
+		height: 6vh;
+		padding:2vh 0;
+		text-align: center;
+	}
+	.prew-view{
+		width: 57vw;
+		max-width: 57vw;
+		height: 9vh;
+		padding:.5vh 0;
+	}
+	/*.content-pre-view{
+		max-width: 56vw;
+		max-height: 9vh;
+	}*/
+	.title-pre-view{
+		margin-top: 1vh;
+	}
+	.content-pre-view{
+		max-width: 56vw;
+		max-height: 8vh;
+		overflow:hidden;
+
+		border:none;
+		background: none;
+
+		resize: none;
+		outline: none;
+
+	}
+
+/*---------------------*/
+
+
+
+/*#hamburger{
+	background: url("../img/hamburger.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}*/
+
+
+#read{
+	background: #fff;
+}
+.read{
+	width: 90vw;
+	margin:0 5vw;
+}
+
+.content{
+	border:none;
+
+	resize: none;
+	outline: none;
+
+	text-decoration: none;
+	font-weight: 10;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+
+
+
+
+
+#write{
+	position: absolute;
+
+	margin:100vh 0;
+}
+
+
+
+
+
+
+#plus{
+	position: absolute;
+
+	width: 10vh;
+	height: 10vh;
+	margin:89vh calc(95vw - 10vh);
+
+	background: url("../img/plus.svg"), #2980b9;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+
+	transition-duration: 1s;
+}
+
+
+
+/*.nav-item{
+	width: 5vh;
+	height:5vh;
+	margin:1vh 2vw;
+
+	border:none;
+
+	outline: none;
+}*/
+
+.nav-item{
+
+	position: absolute;
+
+	width: 39px;
+	height:39px;
+	margin:6.5px 2vw;
+
+	border:none;
+
+	outline: none;
+}
+
+
+
+
+.back{
+	background: url("../img/back.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.edit{
+	position: absolute;
+	margin-left: calc((100vw - 39px) - 2vw);
+
+	background: url("../img/edit.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.save{
+	position: absolute;
+
+	margin-left: calc((100vw - 39px) - 2vw);
+
+	background: url("../img/save.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.delete{
+	margin-left: calc(50vw - 19.5px);
+
+	background: url("../img/trash.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.text{
+	width: 90vw;
+	margin:0 5vw;
+
+	border:none;
+	outline: none;
+	resize: none;
+
+}
+	.title{
+		height: 25px;
+		margin-top: 1vh;
+		padding: 1vh 0;
+
+	}
+
+	.content{
+		width: 85vw;
+		height: calc(81vh - 40px);
+		padding: 1vh 2.5vw;
+	}
+
+
+
+
+	#window{ 
+		position: absolute;
+
+		display: none;
+		width: 100vw;
+		height: 30vh;
+		margin:calc(40vh - 10vh) 0;
+
+		background: rgba(0,0,0,.9);
+	 }
+
+	 .btn{
+	 	width: 80vw;
+	 	height: 8vh;
+	 	margin:1vh 10vw;
+
+	 }
+	 .query{
+	 	height: auto;
+	 	padding:1vh 0;
+	 	color:#fff;
+	 	text-align: center;
+	 }
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+#carga{
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	transition-duration: .6s;
+	transition: linear .6s;
+	position: absolute;
+}
+#carga>div{
+	position: absolute;	
+}
+	#logo{
+		opacity: 0;
+		width: 50vw;
+		height: 50vw;
+		margin:calc(30vh - 15vw) calc(50vw - 25vw);
+		background: url("../img/logo.svg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		/*transition-duration: .5s;*/
+	}
+	#name{
+		opacity: 0;
+		width: 100vw;
+		font-family: lato;
+		font-size: large;
+		text-align: center;
+		margin:50vh 0;
+		/*transition-duration: .5s;*/
+	}
+	#developer{
+		opacity: 0;
+		width: 100vw;
+		font-family: lato;
+		font-size: large;
+		font-weight: 10;
+		text-align: center;	
+		margin: calc(100vh - 10vh) 0 0 0;
+		/*transition-duration: .5s;*/
+	}
+
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+@media screen and (max-height:  400px){
+	.content{
+		height: 60vh;
+	}
+}
