@@ -19,6 +19,6 @@ NOTA cuenta con 3 secciones:
 
 
 
- Si quieres descargar esta app en tu telefono celular, podras hacerlo desde este link:
+ Si quieres descargar esta app en tu telefono celular, podras hacerlo desde este link: http://www.appsgeyser.com/13322399?
 
 
